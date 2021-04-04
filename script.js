@@ -102,56 +102,56 @@ function consoleLogSongs() {
         if (songContainer.classList.contains("edm")){    
             songContainer.style.background = "red";
         } else {
-            songContiner.style.background("white");
+            songContainer.style.background = ("white");
         }
         })
 
-        var filterDubstep = document.querySelector(".dubstep");
+        var filterDubstep = document.querySelector('.dubstep');
         filterDubstep.addEventListener("click", function(){
             if (songContainer.classList.contains("dubstep")){    
                 songContainer.style.background = "blue";
             } else {
-                songContiner.style.background("white");
+                songContainer.style.background = ("white");
             }
         })
 
-        var filterTropicalhouse = document.querySelector(".tropicalhouse");
-        filterTropicalhouse.addEventListener("click", function(){
-            if (songContainer.classList.contains("tropicalhouse")){    
+        var filterTropicalHouse = document.querySelector('.tropical_house');
+        filterTropicalHouse.addEventListener("click", function(){
+            if (songContainer.classList.contains("tropical_house")){    
                 songContainer.style.background = "green";
             } else {
-                songContiner.style.background("white");
+                songContainer.style.background = ("white");
             }
         })
 
-        var filterElectroHouse = document.querySelector(".electrohouse");
+        var filterElectroHouse = document.querySelector('.electrohouse');
         filterElectroHouse.addEventListener("click", function(){
             if (songContainer.classList.contains("electrohouse")){    
                 songContainer.style.background = "purple";
             } else {
-                songContainer.style.background("white");
+                songContainer.style.background = ("white");
             }
         })
 
-        var filterElectroPop = document.querySelector(".electropop");
+        var filterElectroPop = document.querySelector('.electropop');
         filterElectroPop.addEventListener("click", function(){
             if (songContainer.classList.contains("electropop")){    
                 songContainer.style.background = "orange";
             } else {
-                songContiner.style.background("white");
+                songContainer.style.background = ("white");
             }
         })
 
-        var filterElectroTrap = document.querySelector(".electrotrap");
-        filterElectroTrap.addEventListener("click", function(){
-            if (songContainer.classList.contains("electrotrap")){    
+        var filterElectronicTrap = document.querySelector('.electronic_trap');
+        filterElectronicTrap.addEventListener("click", function(){
+            if (songContainer.classList.contains("electronic_trap")){    
                 songContainer.style.background = "yellow";
             } else {
-                songContiner.style.background("white");
+                songContainer.style.background = ("white");
             }
         })
 
-        var filterReset = document.querySelector(".js-reset");
+        var filterReset = document.querySelector('.js-reset');
         filterReset.addEventListener("click", function(){
             songContainer.style.background = "white";
             
